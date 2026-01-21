@@ -5,13 +5,13 @@
 class Stash < Formula
   desc "Encrypted backup for macOS dotfiles, secrets, and configs"
   homepage "https://github.com/harshpatel5940/stash"
-  version "1.1.1"
+  version "1.2.1"
   license "MIT"
   depends_on :macos
 
   on_intel do
-    url "https://github.com/harshpatel5940/stash/releases/download/v1.1.1/stash_1.1.1_darwin_amd64.tar.gz"
-    sha256 "11a6bad113a204240857857c9c1b654bc2eaab442b8f89b12ea5d3d96a9beded"
+    url "https://github.com/harshpatel5940/stash/releases/download/v1.2.1/stash_1.2.1_darwin_amd64.tar.gz"
+    sha256 "d3f26b5c6f0dfdd6b5af8795d4fbfc99541b2d26c20b5fbf7be61a860a59eabe"
 
     def install
       bin.install "stash"
@@ -24,8 +24,8 @@ class Stash < Formula
     end
   end
   on_arm do
-    url "https://github.com/harshpatel5940/stash/releases/download/v1.1.1/stash_1.1.1_darwin_arm64.tar.gz"
-    sha256 "b36697861775edb838d59415fa8cb05e482d06930f387ce98286e3f12e58171d"
+    url "https://github.com/harshpatel5940/stash/releases/download/v1.2.1/stash_1.2.1_darwin_arm64.tar.gz"
+    sha256 "87bdcc176b2f5f24fd3c9568109a71a19e3a9177f59cf725811d58031704b095"
 
     def install
       bin.install "stash"
